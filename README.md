@@ -17,7 +17,7 @@ Transform your Notion workspace into an Enterprise-grade Site Reliability Engine
 KuroSRE orchestrates a flawless pipeline between your Server Webhooks, Notion Databases, and your Local AI Client.
 
 ```mermaid
-graph TD
+graph TD;
     A[🚨 Server Error] -->|API / Webhook| B[(Notion: Analyzing)]
     B -->|Tool 1: get_analyzing_tickets| C{🤖 AI Client}
     C <-->|Tool 2: search_kuro_runbook| D[(📚 Notion: Runbook SOP)]
@@ -75,4 +75,4 @@ npx @modelcontextprotocol/inspector node server.js
 ```
 
 ---
-*Built for the DEV.to x Notion MCP Hackathon 2025.*
+*Built for the DEV.to x Notion MCP Hackathon 2026.*
