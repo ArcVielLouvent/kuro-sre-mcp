@@ -1,0 +1,9 @@
+# Menyembunyikan API Keys (SANGAT PENTING!)
+.env
+
+# Menyembunyikan folder berat bawaan Node.js
+node_modules/
+
+# Menyembunyikan folder IDE/Tools bawaan (opsional)
+.zencoder/
+.zenflow/
