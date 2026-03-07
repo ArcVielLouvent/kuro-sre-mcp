@@ -18,13 +18,13 @@ KuroSRE orchestrates a flawless pipeline between your Server Webhooks, Notion Da
 
 ```mermaid
 graph TD;
-    A[🚨 Server Error] -->|API / Webhook| B[(Notion: Analyzing)]
-    B -->|Tool 1: get_analyzing_tickets| C{🤖 AI Client}
-    C <-->|Tool 2: search_kuro_runbook| D[(📚 Notion: Runbook SOP)]
-    C -->|Tool 3: submit_ai_diagnosis| E[(Notion: Open)]
-    E -->|👀 Human Review| F[✅ Click Approve Rollback]
-    F -->|Tool 4: execute_approved_rollbacks| G[🚀 Trigger CI/CD Webhook]
-    G --> H[(Notion: Resolved)]
+    A["🚨 Server Error"] -->|"API / Webhook"| B[("Notion: Analyzing")]
+    B -->|"Tool 1: get_analyzing_tickets"| C{"🤖 AI Client"}
+    C <-->|"Tool 2: search_kuro_runbook"| D[("📚 Notion: Runbook SOP")]
+    C -->|"Tool 3: submit_ai_diagnosis"| E[("Notion: Open")]
+    E -->|"👀 Human Review"| F["✅ Click Approve Rollback"]
+    F -->|"Tool 4: execute_approved_rollbacks"| G["🚀 Trigger CI/CD Webhook"]
+    G --> H[("Notion: Resolved")]
     
     style B fill:#2b5b84,stroke:#fff,stroke-width:2px,color:#fff
     style D fill:#4a4a4a,stroke:#fff,stroke-width:2px,color:#fff
