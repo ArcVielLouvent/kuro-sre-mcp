@@ -56,7 +56,7 @@ This server exposes 4 Enterprise-grade tools to your AI Client:
 
 ### 2. Clone and Install
 ```bash
-git clone [https://github.com/ArcVielLouvent/kuro-sre-mcp.git](https://github.com/ArvVielLouvent/kuro-sre-mcp.git)
+git clone https://github.com/ArcVielLouvent/kuro-sre-mcp.git
 cd kuro-sre-mcp
 npm install
 ```
